@@ -1,3 +1,6 @@
+//Write a function named setAlarm that has two arguments.
+//-----------------------------------------------------//
+/*
 function setAlarm(employed, vacationing) {
   if (employed === true && vacationing === false) {
     return true;
@@ -13,3 +16,5 @@ console.log(setAlarm(true, true));
 console.log(setAlarm(false, false));
 console.log(setAlarm(false, true));
 console.log(setAlarm(true, false));
+*/
+//-------------------------------------------------------//

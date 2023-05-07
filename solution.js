@@ -51,3 +51,33 @@ console.log(trollsBeGone("This website is for losers LOL"));
 */
 
 //-----------------------------------------------------//
+// Bank Account Summary : Question no:4
+/*
+const bankInfo = {
+  savings: 600,
+  checking: 800,
+  moneyMarket: 200,
+  creditCard: -2000,
+};
+
+function bankAccountSummary(bankInfo) {
+  let total = 0;
+  for (let totalAccount in bankInfo) {
+    total = total + bankInfo[totalAccount];
+  }
+  return total;
+}
+const bankTotal = bankAccountSummary(bankInfo);
+
+function inTheRed(number) {
+  if (number < 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+console.log(bankTotal);
+console.log(inTheRed(bankTotal));
+*/
+
+//-----------------------------------------------------//

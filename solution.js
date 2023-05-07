@@ -34,3 +34,20 @@ console.log(oddNumberCount(7));
 */
 
 //-----------------------------------------------------//
+//Disemvoweling Trolls: Question no: 3
+/*
+function trollsBeGone(sentence) {
+  const vowels = ["A", "E", "I", "O", "U", "a", "e", "i", "o", "u"];
+  let newString = "";
+  for (let i = 0; i < sentence.length; i += 1) {
+    const char = sentence[i];
+    if (!vowels.includes(char)) {
+      newString += char;
+    }
+  }
+  return newString;
+}
+console.log(trollsBeGone("This website is for losers LOL"));
+*/
+
+//-----------------------------------------------------//
